@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+        font-family: "fonte";
+        src: url('../fontes/idroid.otf') format(opentype);
+    }
+    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: 'sans serif';
+}
+h1{
+    margin: 10px;
+    color: #6423D9;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+.nobox{
+     margin: 10px;
+     color: #6423D9;
+     font-family: "fonte", sans-serif;
+     font-weight: normal;
+     background-image: linear-gradient(to right, #B66BD9, transparent);
+     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
+     border-radius: 5px;
+     padding-left: 10px;
+}
+p{
+      margin: 10px;
+      text-align: justify;
+}
+a{
+    color: #D92368;
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
+body{
+     background-color: #B66BD9;
+     margin: 0;
+}
+header{
+    background-image:linear-gradient(to top,#9F23D9, #D923D5);
+padding-bottom: 10px;
+}
+header > h1{
+text-align: center;
+padding-top: 10px;
+color: white;
+}
+header > p{
+text-align: center;
+color: white;
+}
+nav > a{
+margin-left: 10px;
+color: white;
+text-decoration: none;
+padding: 4px;
+font-weight: bold;
+}
+nav > a:hover{
+    background-color:#D92368;
+    border-radius: 3px;
+    transition-duration: .5s;
+}
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;  
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.538);
+}
+main > h1{
+  font-family: "fonte", sans-serif;
+  font-weight: normal;
+  
+}
+main p{
+    line-height: 2em;
+}
+.foto-centralizada {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   width: 100%;
+   padding: 10px;
+}
+article > aside{
+    background-color: #9F23D9;
+    max-width: 800px;
+    min-width: 320px;
+  
+}
+.box{
+    max-width: 780px;
+    min-width: 320px;
+    background-color: #B66BD9;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px 0px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
+}
+.dobox{
+    background-color: #6423D9;
+    font-family: sans-serif;
+  font-weight: normal;
+  padding-left: 10px;
+  color: white;
+  border-top-left-radius: 10px;
+}
+.dividir{
+display: flex;
+justify-content: space-around;
+}
+footer{
+    background-color: #6423D9;
+    margin: 0;
+    padding: 0;
+}
+footer > p{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 5px;
+}
+.final{
+    padding: 10px;
+    margin: 0;
+}
+.foto-centralizadapq {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   max-width:350px;
+   padding: 10px;
+}
